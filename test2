@@ -2,3 +2,8 @@
 import com.atlassian.jira.component.ComponentAccessor
 def countlink = ComponentAccessor.getIssueLinkManager().getLinkCollection(issue, issue.reporter).getAllIssues().size()
 countlink.toString()
+
+
+oct 7,2019
+1. https://confluence.atlassian.com/jirakb/how-to-unlock-a-locked-jira-software-field-779158866.html
+2. https://confluence.atlassian.com/jirakb/rename-system-fields-in-jira-server-278692006.html
